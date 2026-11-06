@@ -1,0 +1,293 @@
+{
+  "name": "ITER Campus 1",
+  "nodes": [
+    {
+      "id": "GATE",
+      "name": "Main Gate",
+      "x": 60,
+      "y": 320,
+      "water": false,
+      "rest": false,
+      "sponsor_goal_inr": 0
+    },
+    {
+      "id": "J1",
+      "name": "Gate Junction",
+      "x": 170,
+      "y": 320,
+      "water": false,
+      "rest": false,
+      "sponsor_goal_inr": 0
+    },
+    {
+      "id": "ADMIN",
+      "name": "E Block",
+      "x": 270,
+      "y": 190,
+      "water": true,
+      "rest": false,
+      "sponsor_goal_inr": 2500
+    },
+    {
+      "id": "LIB",
+      "name": "Library",
+      "x": 270,
+      "y": 450,
+      "water": true,
+      "rest": false,
+      "sponsor_goal_inr": 2500
+    },
+    {
+      "id": "J2",
+      "name": "North Junction",
+      "x": 410,
+      "y": 190,
+      "water": false,
+      "rest": false,
+      "sponsor_goal_inr": 0
+    },
+    {
+      "id": "J3",
+      "name": "South Junction",
+      "x": 410,
+      "y": 450,
+      "water": false,
+      "rest": false,
+      "sponsor_goal_inr": 0
+    },
+    {
+      "id": "LAB",
+      "name": "Science Lab",
+      "x": 530,
+      "y": 90,
+      "water": true,
+      "rest": false,
+      "sponsor_goal_inr": 2500
+    },
+    {
+      "id": "CANT",
+      "name": "Canteen",
+      "x": 510,
+      "y": 320,
+      "water": true,
+      "rest": true,
+      "sponsor_goal_inr": 2500
+    },
+    {
+      "id": "PARK",
+      "name": "Banyan Park",
+      "x": 510,
+      "y": 560,
+      "water": false,
+      "rest": true,
+      "sponsor_goal_inr": 0
+    },
+    {
+      "id": "J4",
+      "name": "East Junction",
+      "x": 650,
+      "y": 190,
+      "water": false,
+      "rest": false,
+      "sponsor_goal_inr": 0
+    },
+    {
+      "id": "J5",
+      "name": "South-East Junction",
+      "x": 650,
+      "y": 450,
+      "water": false,
+      "rest": false,
+      "sponsor_goal_inr": 0
+    },
+    {
+      "id": "AUD",
+      "name": "Auditorium",
+      "x": 760,
+      "y": 310,
+      "water": false,
+      "rest": true,
+      "sponsor_goal_inr": 0
+    },
+    {
+      "id": "SPORT",
+      "name": "Sports Ground",
+      "x": 790,
+      "y": 540,
+      "water": false,
+      "rest": false,
+      "sponsor_goal_inr": 0
+    },
+    {
+      "id": "HOS",
+      "name": "Hostel Block",
+      "x": 910,
+      "y": 110,
+      "water": true,
+      "rest": false,
+      "sponsor_goal_inr": 2500
+    }
+  ],
+  "edges": [
+    {
+      "id": "GATE-J1",
+      "a": "GATE",
+      "b": "J1",
+      "length_m": 99,
+      "shade": 0.1,
+      "surface": "asphalt"
+    },
+    {
+      "id": "J1-ADMIN",
+      "a": "J1",
+      "b": "ADMIN",
+      "length_m": 148,
+      "shade": 0.45,
+      "surface": "concrete"
+    },
+    {
+      "id": "J1-LIB",
+      "a": "J1",
+      "b": "LIB",
+      "length_m": 148,
+      "shade": 0.7,
+      "surface": "brick"
+    },
+    {
+      "id": "J1-CANT",
+      "a": "J1",
+      "b": "CANT",
+      "length_m": 306,
+      "shade": 0.0,
+      "surface": "asphalt"
+    },
+    {
+      "id": "ADMIN-J2",
+      "a": "ADMIN",
+      "b": "J2",
+      "length_m": 126,
+      "shade": 0.2,
+      "surface": "asphalt"
+    },
+    {
+      "id": "LIB-J3",
+      "a": "LIB",
+      "b": "J3",
+      "length_m": 126,
+      "shade": 0.8,
+      "surface": "grass"
+    },
+    {
+      "id": "J2-LAB",
+      "a": "J2",
+      "b": "LAB",
+      "length_m": 141,
+      "shade": 0.6,
+      "surface": "concrete"
+    },
+    {
+      "id": "J2-CANT",
+      "a": "J2",
+      "b": "CANT",
+      "length_m": 148,
+      "shade": 0.4,
+      "surface": "concrete"
+    },
+    {
+      "id": "J3-CANT",
+      "a": "J3",
+      "b": "CANT",
+      "length_m": 148,
+      "shade": 0.75,
+      "surface": "brick"
+    },
+    {
+      "id": "J3-PARK",
+      "a": "J3",
+      "b": "PARK",
+      "length_m": 134,
+      "shade": 0.9,
+      "surface": "grass"
+    },
+    {
+      "id": "CANT-AUD",
+      "a": "CANT",
+      "b": "AUD",
+      "length_m": 225,
+      "shade": 0.15,
+      "surface": "asphalt"
+    },
+    {
+      "id": "CANT-J5",
+      "a": "CANT",
+      "b": "J5",
+      "length_m": 172,
+      "shade": 0.3,
+      "surface": "concrete"
+    },
+    {
+      "id": "LAB-J4",
+      "a": "LAB",
+      "b": "J4",
+      "length_m": 141,
+      "shade": 0.3,
+      "surface": "concrete"
+    },
+    {
+      "id": "J4-AUD",
+      "a": "J4",
+      "b": "AUD",
+      "length_m": 147,
+      "shade": 0.4,
+      "surface": "concrete"
+    },
+    {
+      "id": "J4-HOS",
+      "a": "J4",
+      "b": "HOS",
+      "length_m": 245,
+      "shade": 0.2,
+      "surface": "asphalt"
+    },
+    {
+      "id": "AUD-HOS",
+      "a": "AUD",
+      "b": "HOS",
+      "length_m": 225,
+      "shade": 0.1,
+      "surface": "asphalt"
+    },
+    {
+      "id": "AUD-SPORT",
+      "a": "AUD",
+      "b": "SPORT",
+      "length_m": 209,
+      "shade": 0.2,
+      "surface": "asphalt"
+    },
+    {
+      "id": "PARK-J5",
+      "a": "PARK",
+      "b": "J5",
+      "length_m": 160,
+      "shade": 0.85,
+      "surface": "grass"
+    },
+    {
+      "id": "J5-AUD",
+      "a": "J5",
+      "b": "AUD",
+      "length_m": 160,
+      "shade": 0.5,
+      "surface": "concrete"
+    },
+    {
+      "id": "J5-SPORT",
+      "a": "J5",
+      "b": "SPORT",
+      "length_m": 150,
+      "shade": 0.2,
+      "surface": "asphalt"
+    }
+  ]
+}
